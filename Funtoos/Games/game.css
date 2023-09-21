@@ -1,0 +1,116 @@
+.border {
+  border: solid 5px #efb204;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  position: fixed;
+  top: 250px;
+  left: 120px;
+}
+
+.snake{
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  position: fixed;
+  top: 250px;
+  left: 120px;
+}
+
+.st{
+  position: relative;
+  top: 350px;
+  left: 90px;
+  color: silver;
+  font-size: 50px;
+  font-weight: 200px;
+  
+
+}
+.snake:hover{
+  transform:  scale(0.9) ;
+  transition: ease 0.5s;
+  opacity: 0.2;
+
+}
+
+
+/* start on new game */
+
+.borders {
+  border: solid 5px #efb204;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  position: fixed;
+  top: 250px;
+  left: 600px;
+}
+
+.tic{
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  position: fixed;
+  top: 250px;
+  left: 600px;
+}
+
+.tt{
+  position: relative;
+  top: 350px;
+  left: 40px;
+  color: silver;
+  font-size: 50px;
+  font-weight: 200px;
+  
+
+}
+.tic:hover{
+  transform:  scale(0.9) ;
+  transition: ease 0.5s;
+  opacity: 0.2;
+
+}
+
+
+/* new game again  */
+
+
+.borderss {
+  border: solid 5px #efb204;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  position: fixed;
+  top: 250px;
+  left: 1080px;
+}
+
+.ping{
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  position: fixed;
+  top: 250px;
+  left: 1080px;
+}
+
+.pt{
+  position: relative;
+  top: 350px;
+  left: 50px;
+  color: silver;
+  font-size: 50px;
+  font-weight: 200px;
+  
+
+}
+.ping:hover{
+  transform:  scale(0.9) ;
+  transition: ease 0.5s;
+  opacity: 0.2;
+
+}
+
+

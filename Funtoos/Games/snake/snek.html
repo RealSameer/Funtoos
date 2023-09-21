@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-with, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body{
+			margin: 0px;
+			padding: 0px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-color: #040404;
+		}
+		canvas{
+			box-shadow: dimgray 20px 10px 50px;
+			position: absolute;
+			top: 200px;
+		}
+
+		.box{
+			border: solid 5px #efb204;
+			width: 550px;
+			height: 550px;
+			position: absolute;
+			top: 176px;
+			background-color: dimgray;
+		}
+
+		.callback{
+			position: absolute;
+			top: 5px;
+			left: 10px;
+
+		}
+
+		.retry{
+			position: absolute;
+			top:689px ;
+			right: 500px
+		}
+
+		.head{
+			font-weight: 350px;
+			font-size: 50px;
+			position: absolute;
+			top: 76px;
+			color: #efb204;
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+	<div ></div>
+      <h1 class="head"> Snake </h1>
+     <a href="../game.html"> <h1 class="callback" style="color: white; font-size: 50px;"> Go back </h1> </a>
+	 <a href="snek.html"> <h1 class="retry" style="color: #efb204; font-size: 20px;"> Retry </h1> </a>
+      <canvas id="game" width="500" height="500"/>
+      <script src="index.js"></script>
+      
+</body>
+</html>
